@@ -1,0 +1,2403 @@
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 10.2s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 14.2s behind.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9ba7634d36068a1f1159fe1314bac62a.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9ba7634d36068a1f1159fe1314bac62a.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 11.6s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 13.6s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 19.0s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 18.5s behind.
+ERROR:discord.ext.commands.bot:Ignoring exception in command members
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: guild_id is a required argument that is missing.
+ERROR:discord.ext.commands.bot:Ignoring exception in command members
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\converter.py", line 1246, in _actual_conversion
+    return converter(argument)
+           ^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '[guild_id]'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 715, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\converter.py", line 1355, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\converter.py", line 1255, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "guild_id".
+ERROR:discord.ext.commands.bot:Ignoring exception in command members
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: guild_id is a required argument that is missing.
+ERROR:discord.ext.commands.bot:Ignoring exception in command members
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: guild_id is a required argument that is missing.
+ERROR:discord.ext.commands.bot:Ignoring exception in command meme
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 555, in meme
+    meme = random.choice(meme_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\random.py", line 374, in choice
+    return seq[self._randbelow(len(seq))]
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: 1
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "translate_language" is not found
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 13.9s behind.
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "emoji_quiz" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 684, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001DA0457B470>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001DA0457B470>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 853, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: prompt is a required argument that is missing.
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 684, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001DA058D9300>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001DA058D9300>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 684, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000020BE2194EA0>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000020BE2194EA0>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 677, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000021D07898360>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000021D07898360>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 677, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000021D0973EC50>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x0000021D0973EC50>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 853, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 697, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: prompt is a required argument that is missing.
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 677, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000226A2B5E110>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000226A2B5E110>
+ERROR:discord.ext.commands.bot:Ignoring exception in command p
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 254, in process_playback
+    if not ctx.voice_client.is_playing():
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10027.discord.media
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=6> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Odtw\xf3rz list\u0119' emoji=<PartialEmoji animated=False name='\u25b6\ufe0f' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 276, in play_list_button
+    await play_song_file(interaction)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 416, in play_song_file
+    success = await add_to_queue(ctx, url, True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 208, in add_to_queue
+    current_track = YouTube(ctx.voice_client.source.title)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FFmpegOpusAudio' object has no attribute 'title'
+INFO:discord.player:ffmpeg process 19988 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 19988 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 18968 successfully terminated with return code of 1.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+ERROR:discord.ext.commands.bot:Ignoring exception in command p
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 254, in process_playback
+    if not ctx.voice_client.is_playing():
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10096.discord.media
+INFO:discord.player:ffmpeg process 8760 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 8760 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 21316 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 21316 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 18560 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 18560 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 19304 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 19304 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 20492 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 20492 should have terminated with a return code of 1.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 11.7s behind.
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 20 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+ERROR:discord.client:Attempting a reconnect in 1.18s
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10096.discord.media
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10096.discord.media
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 250, in process_playback
+    await add_to_queue(ctx, video_url ,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+ERROR:discord.ext.commands.bot:Ignoring exception in command p
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000025960E7F510>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: /youtubei/v1/search?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025960E7F510>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 246, in process_playback
+    search_results = ytmusic.search(url, filter='songs')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\mixins\search.py", line 182, in search
+    response = self._send_request(endpoint, body)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\ytmusic.py", line 230, in _send_request
+    response = self._session.post(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: /youtubei/v1/search?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025960E7F510>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ConnectionError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: /youtubei/v1/search?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025960E7F510>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+ERROR:discord.ext.commands.bot:Ignoring exception in command p
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000025960E7C490>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025960E7C490>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 246, in process_playback
+    search_results = ytmusic.search(url, filter='songs')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\mixins\search.py", line 182, in search
+    response = self._send_request(endpoint, body)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\ytmusic.py", line 228, in _send_request
+    self._headers.update(get_visitor_id(self._send_get_request))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\helpers.py", line 36, in get_visitor_id
+    response = request_func(YTM_DOMAIN)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\ytmusic.py", line 245, in _send_get_request
+    response = self._session.get(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025960E7C490>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ConnectionError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025960E7C490>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+ERROR:discord.ext.commands.bot:Ignoring exception in command p
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x0000025960E7C290>, 'Connection to music.youtube.com timed out. (connect timeout=30)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025960E7C290>, 'Connection to music.youtube.com timed out. (connect timeout=30)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 246, in process_playback
+    search_results = ytmusic.search(url, filter='songs')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\mixins\search.py", line 182, in search
+    response = self._send_request(endpoint, body)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\ytmusic.py", line 228, in _send_request
+    self._headers.update(get_visitor_id(self._send_get_request))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\helpers.py", line 36, in get_visitor_id
+    response = request_func(YTM_DOMAIN)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\ytmusicapi\ytmusic.py", line 245, in _send_get_request
+    response = self._session.get(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025960E7C290>, 'Connection to music.youtube.com timed out. (connect timeout=30)'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ConnectTimeout: HTTPSConnectionPool(host='music.youtube.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025960E7C290>, 'Connection to music.youtube.com timed out. (connect timeout=30)'))
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10081.discord.media
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 678, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 365, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 312, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 244, in process_playback
+    await add_to_queue(ctx, video_url,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 198, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 138, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 745323932567208057 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10081.discord.media
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 680, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 367, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 314, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 246, in process_playback
+    await add_to_queue(ctx, video_url,False)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 200, in add_to_queue
+    await track.download()
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 140, in download
+    stream = yt.streams.filter(only_audio=True).first()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 295, in streams
+    self.check_availability()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 210, in check_availability
+    status, messages = extract.playability_status(self.watch_html)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\__main__.py", line 102, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 53, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1448, in connect
+    super().connect()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 836, in create_connection
+    sock.connect(sa)
+
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 745323932567208057 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10049.discord.media
+INFO:discord.player:ffmpeg process 14340 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 14340 should have terminated with a return code of 1.
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=6> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='Пропустить' emoji=<PartialEmoji animated=False name='\u23ed\ufe0f' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 285, in skip_button
+    await ctx.invoke(self.bot.get_command("skip"))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\context.py", line 336, in invoke
+    return await command(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 590, in __call__
+    return await self.callback(context, *args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 329, in skip
+    await play_next(ctx)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 222, in play_next
+    await play_track(ctx, next_track)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 179, in play_track
+    ctx.voice_client.play(source)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\voice_client.py", line 608, in play
+    raise ClientException('Already playing audio.')
+discord.errors.ClientException: Already playing audio.
+INFO:discord.player:ffmpeg process 14564 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 14564 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 2504 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 2504 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 13344 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 13344 should have terminated with a return code of 1.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 10.5s behind.
+INFO:discord.player:ffmpeg process 8056 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 8056 should have terminated with a return code of 1.
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=6> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='Пропустить' emoji=<PartialEmoji animated=False name='\u23ed\ufe0f' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 420, in _scheduled_task
+    allow = await self.interaction_check(interaction)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 267, in interaction_check
+    await interaction.response.defer()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\interactions.py", line 661, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+ERROR:discord.ext.commands.bot:Ignoring exception in command skip
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 329, in skip
+    await play_next(ctx)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 222, in play_next
+    await play_track(ctx, next_track)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 179, in play_track
+    ctx.voice_client.play(source)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\voice_client.py", line 608, in play
+    raise ClientException('Already playing audio.')
+discord.errors.ClientException: Already playing audio.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ClientException: Already playing audio.
+INFO:discord.player:ffmpeg process 8928 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 8928 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 13212 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 13212 should have terminated with a return code of 1.
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001E25429B4C0>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001E25429B4C0>
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.player:ffmpeg process 10712 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 10712 should have terminated with a return code of 1.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 745323932567208057 (Guild ID 743970521397329933)
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002097491E750>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002097491E750>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001E58832C720>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001E58832C720>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000268B2406BB0>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000268B2406BB0>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002C9A05B4180>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002C9A05B4180>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000144604850D0>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000144604850D0>
+ERROR:discord.ext.commands.bot:Ignoring exception in command ai_art
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 664, in generate_image
+    image = Image.open(io.BytesIO(bytes))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002084626FE70>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000002084626FE70>
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 115, in doc
+    timestamp=datetime.datetime.utcnow()
+              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 116, in doc
+    timestamp=datetime.datetime.utcnow()
+              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 115, in doc
+    timestamp=datetime.datetime.utcnow()
+              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 116, in doc
+    timestamp=datetime.datetime.utcnow()
+              ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR:discord.ext.commands.bot:Ignoring exception in command play
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 325, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 267, in process_playback
+    if not ctx.voice_client.is_playing():
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 671, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 378, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 648, in generate_image
+    bytes = query(
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 642, in query
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 110, in doc
+    embed = discord.Embed(name = chr(173), value = chr(173),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Embed.__init__() got an unexpected keyword argument 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Embed.__init__() got an unexpected keyword argument 'name'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 122, in doc
+    embed.add_field(name=chr(173))
+TypeError: Embed.add_field() missing 1 required keyword-only argument: 'value'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Embed.add_field() missing 1 required keyword-only argument: 'value'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 160, in doc
+    await ctx.send(embed=embed)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields: Must be 25 or fewer in length.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields: Must be 25 or fewer in length.
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 160, in doc
+    await ctx.send(embed=embed)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\context.py", line 1024, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\http.py", line 745, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields: Must be 25 or fewer in length.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields: Must be 25 or fewer in length.
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 110, in doc
+    embed = discord.Embed(
+            ^^^^^^^^^^^^^^
+TypeError: Embed.__init__() got an unexpected keyword argument 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Embed.__init__() got an unexpected keyword argument 'name'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 110, in doc
+    embed = discord.Embed(
+            ^^^^^^^^^^^^^^
+TypeError: Embed.__init__() got an unexpected keyword argument 'value'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Embed.__init__() got an unexpected keyword argument 'value'
+ERROR:discord.ext.commands.bot:Ignoring exception in command doc
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 110, in doc
+    embed = discord.Embed(
+            ^^^^^^^^^^^^^^
+TypeError: Embed.__init__() got an unexpected keyword argument 'name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Embed.__init__() got an unexpected keyword argument 'name'
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found russia1740.discord.media
+INFO:discord.player:ffmpeg process 2832 successfully terminated with return code of 1.
+INFO:discord.player:ffmpeg process 18276 successfully terminated with return code of 0.
+INFO:discord.player:ffmpeg process 18444 successfully terminated with return code of 0.
+INFO:discord.player:ffmpeg process 13224 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 13224 should have terminated with a return code of 1.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 12.2s behind.
+INFO:discord.player:ffmpeg process 15272 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 15272 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 9576 successfully terminated with return code of 0.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 998368472847355915 (Guild ID 974812414224793641)
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 10.1s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 13.1s behind.
+ERROR:discord.ext.commands.bot:Ignoring exception in command rnum
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\converter.py", line 1246, in _actual_conversion
+    return converter(argument)
+           ^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '4 + 4'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 853, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 715, in transform
+    return await run_converters(ctx, converter, argument, param)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\converter.py", line 1355, in run_converters
+    return await _actual_conversion(ctx, converter, argument, param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\converter.py", line 1255, in _actual_conversion
+    raise BadArgument(f'Converting to "{name}" failed for parameter "{param.name}".') from exc
+discord.ext.commands.errors.BadArgument: Converting to "int" failed for parameter "randeom_num".
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10004.discord.media
+INFO:discord.player:ffmpeg process 8836 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 8836 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 10412 successfully terminated with return code of 1.
+INFO:discord.player:ffmpeg process 20348 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 20348 should have terminated with a return code of 1.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found russia921.discord.media
+INFO:discord.player:ffmpeg process 20252 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 20252 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 1264 successfully terminated with return code of 0.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found russia921.discord.media
+INFO:discord.player:ffmpeg process 6292 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 6292 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 14724 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 14724 should have terminated with a return code of 1.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session c8488dee3f0ed6a2ae23bc0648ab20e6.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "плэй" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "плэй" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "Play" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "плэй" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command play
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 330, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 269, in process_playback
+    if not ctx.voice_client.is_playing():
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+ERROR:discord.ext.commands.bot:Ignoring exception in command play
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 330, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 269, in process_playback
+    if not ctx.voice_client.is_playing():
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+ERROR:discord.ext.commands.bot:Ignoring exception in command play
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 330, in play
+    await process_playback(ctx, url)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 269, in process_playback
+    if not ctx.voice_client.is_playing():
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "queue" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "do" is not found
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 16.4s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 12.1s behind.
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10121.discord.media
+INFO:discord.player:ffmpeg process 17712 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 17712 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 18580 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 18580 should have terminated with a return code of 1.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10121.discord.media
+INFO:discord.player:ffmpeg process 11548 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 11548 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 17684 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 17684 should have terminated with a return code of 1.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10121.discord.media
+INFO:discord.player:ffmpeg process 18496 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 18496 should have terminated with a return code of 1.
+INFO:discord.player:ffmpeg process 18124 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 18124 should have terminated with a return code of 1.
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Остановить' emoji=<PartialEmoji animated=False name='\u23f9\ufe0f' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 420, in _scheduled_task
+    allow = await self.interaction_check(interaction)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 280, in interaction_check
+    await interaction.response.defer()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\interactions.py", line 661, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Остановить' emoji=<PartialEmoji animated=False name='\u23f9\ufe0f' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 420, in _scheduled_task
+    allow = await self.interaction_check(interaction)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 280, in interaction_check
+    await interaction.response.defer()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\interactions.py", line 661, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=4> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Остановить' emoji=<PartialEmoji animated=False name='\u23f9\ufe0f' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 420, in _scheduled_task
+    allow = await self.interaction_check(interaction)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 280, in interaction_check
+    await interaction.response.defer()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\interactions.py", line 661, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+ERROR:discord.ui.view:Ignoring exception in view <ControlButtons timeout=None children=4> for item <Button style=<ButtonStyle.secondary: 2> url=None disabled=False label='Очередь' emoji=<PartialEmoji animated=False name='\U0001f4cb' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ui\view.py", line 420, in _scheduled_task
+    allow = await self.interaction_check(interaction)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 280, in interaction_check
+    await interaction.response.defer()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\interactions.py", line 661, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+INFO:discord.player:ffmpeg process 20072 has not terminated. Waiting to terminate...
+INFO:discord.player:ffmpeg process 20072 should have terminated with a return code of 1.
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 14.2s behind.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session b34671d704913692f84879c30b0a4527.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 13.4s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 18.3s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 11.1s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 10.3s behind.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session b34671d704913692f84879c30b0a4527.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 14.9s behind.
+INFO:discord.voice_client:Connecting to voice...
+INFO:discord.voice_client:Starting voice handshake... (connection attempt 1)
+INFO:discord.voice_client:Voice handshake complete. Endpoint found finland10013.discord.media
+INFO:discord.player:ffmpeg process 656 successfully terminated with return code of 0.
+WARNING:discord.gateway:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 689, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 390, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 666, in generate_image
+    bytes = query(
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 660, in query
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 689, in <module>
+    bot.run(discordtoken)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 390, in on_message
+    await bot.process_commands(message)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1392, in process_commands
+    await self.invoke(ctx)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 666, in generate_image
+    bytes = query(
+  File "C:\Users\User\Desktop\pybot\DiscordBot\main.py", line 660, in query
+    response = requests.post(api_url, headers=headers, json=payload)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+INFO:discord.voice_client:Disconnecting from voice normally, close code 1000.
+INFO:discord.voice_client:The voice handshake is being terminated for Channel ID 743970521825411149 (Guild ID 743970521397329933)
